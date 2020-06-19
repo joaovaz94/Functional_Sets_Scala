@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="joao-Inspiron-13-5378" name="funsets.FunSetSuite" tests="9" errors="0" failures="1" skipped="0" time="0.207" timestamp="2020-05-29T02:26:41">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/usr/lib/i386-linux-gnu:/lib32:/usr/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/><property name="java.vm.version" value="25.171-b11"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="BR"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/joao/Documentos/Programas/Scala/funsets"/><property name="java.runtime.version" value="1.8.0_171-b11"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-3267635/jna1335169275392401400.tmp"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="4.15.0-101-generic"/><property name="user.home" value="/home/joao"/><property name="user.timezone" value="America/Sao_Paulo"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="user.name" value="joao"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="pt"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_171"/><property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
+    </properties>
+                     <testcase classname="funsets.FunSetSuite" name="Retuns wheter any members of a set satisfeis function" time="0.147">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="filter returns set filtered by function" time="0.004">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="diff contains only no-repeated values " time="0.004">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="singleton set one contains one" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="intersect contains only repeated values " time="0.009">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="union contains all elements of each set" time="0.003">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="Retuns wheter all members of a set satisfeis function" time="0.005">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="contains is implemented" time="0.002">
+                                                 
+                                               </testcase><testcase classname="funsets.FunSetSuite" name="map returns a new set based on the given function" time="0.031">
+                                                 <failure message="java.lang.AssertionError: assertion failed: The set s was modified to be equal to t" type="sbt.ForkMain$ForkError">sbt.ForkMain$ForkError: java.lang.AssertionError: assertion failed: The set s was modified to be equal to t
+	at scala.Predef$.assert(Predef.scala:282)
+	at funsets.FunSetSuite$$anon$8.&lt;init&gt;(FunSetSuite.scala:134)
+	at funsets.FunSetSuite.map$u0020returns$u0020a$u0020new$u0020set$u0020based$u0020on$u0020the$u0020given$u0020function(FunSetSuite.scala:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$StatementThread.run(FailOnTimeout.java:74)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

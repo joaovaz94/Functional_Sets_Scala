@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 1 initial tasks for 1 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(funsets.FunSetSuite, sbt.ForkMain$AnnotatedFingerscan@3bfcd584, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run started[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mRetuns wheter any members of a set satisfeis function[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mRetuns wheter any members of a set satisfeis function[0m finished, took 0.147 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mfilter returns set filtered by function[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mfilter returns set filtered by function[0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mdiff contains only no-repeated values [0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mdiff contains only no-repeated values [0m finished, took 0.004 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36msingleton set one contains one[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36msingleton set one contains one[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mintersect contains only repeated values [0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mintersect contains only repeated values [0m finished, took 0.009 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36munion contains all elements of each set[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36munion contains all elements of each set[0m finished, took 0.003 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mRetuns wheter all members of a set satisfeis function[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mRetuns wheter all members of a set satisfeis function[0m finished, took 0.005 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mcontains is implemented[0m started[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mcontains is implemented[0m finished, took 0.002 sec[0m
+[0m[[0m[0minfo[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mmap returns a new set based on the given function[0m started[0m
+[0m[[0m[31merror[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[31mmap returns a new set based on the given function[0m failed: java.lang.[31mAssertionError[0m: assertion failed: The set s was modified to be equal to t, took 0.031 sec[0m
+[0m[[0m[31merror[0m] [0m[0m    at scala.Predef$.assert(Predef.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite$$anon$8.this([35mFunSetSuite.scala[0m:[33m134[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    at funsets.FunSetSuite.map returns a new set based on the given function([35mFunSetSuite.scala[0m:[33m130[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mTest funsets.[33mFunSetSuite[0m.[36mmap returns a new set based on the given function[0m finished, took 0.038 sec[0m
+[0m[[0m[0minfo[0m] [0m[0m[34mTest run finished: [0m[31m1 failed[0m[34m, [0m[34m0 ignored[0m[34m, 9 total, 0.316s[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 9 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 9, Failed 1, Errors 0, Passed 8[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	funsets.FunSetSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

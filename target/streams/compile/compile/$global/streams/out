@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/joao/Documentos/Programas/Scala/funsets/src/main/scala/funsets/FunSets.scala:96:25: comparing values of types Int and scala.collection.immutable.Nil.type using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m    iter(s, (x:Int)=> x == Nil, -bound)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/joao/Documentos/Programas/Scala/funsets/src/test/scala/funsets/FunSetSuite.scala:133:22: not found: value y[0m
+[0m[[0m[31merror[0m] [0m[0m    map(s,(x:Int) => y = x+1)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
